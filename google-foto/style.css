@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+nav div{
+    padding: 12px;
+    font-size: 15px;
+}
+nav div a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+nav div img{
+    cursor: pointer;
+    padding-right: 4px;
+}
+nav div#inicio-sesion{
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    padding: 9px 23px;
+    border-radius: 4px;
+}
+nav div#inicio-sesion a#boton-sesion{
+    color: white;
+}
+nav.a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav.a div.main-logo{
+    margin-top: 170px;
+}
+
+footer.b{
+    background-color: #f2f2f2;
+}
+footer.b{
+    background-color: #f2f2f2;
+    position: fixed;
+	width: 100%;
+	height: 65px;
+	bottom: 0;
+    padding: 15px 30px;
+    color: #70757a;
+}
+footer#z{
+    position: fixed;
+	width: 100%;
+    height: 45px;
+    bottom: 0px;
+    border-top: 1px solid #dadce0;
+}
+footer#z div{
+    display: flex;
+    justify-content: center;
+}
+footer#z div div.footer-divs{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+footer#z div div#central-footer div#c{
+    height: 100%;
+    width: 800px;
+    margin-top: 10px;
+}
+footer#z div div#central-footer div#c div a{
+    color: #70757a;
+    text-decoration: none;
+}
+footer#z div div.footer-divs a{
+    color: #70757a;
+    text-decoration: none;
+}
+
+footer#z div div#central-footer div#c img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+nav.fotos div{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+nav.fotos div img#photo-a{
+    float: right;
+    margin-right: 100px;
+    width: 200px;
+    height: 250px;
+}
+nav.fotos div img#photo-b{
+    float: left;
+    margin-left: 100px;
+    width: 250px;
+    height: 250px;
+}
+nav div.spam{
+    width: 100%;
+}
+nav div.spam ul{
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav div.spam ul#spam-left{
+    float: right;
+    margin-right: 0px;
+}
+nav div.spam ul#spam-right{
+    float: left;
+    margin-left: 80px;
+}
